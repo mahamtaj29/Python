@@ -9,6 +9,7 @@ index_raise = 1.17 / 100
 calculate_index_raise = index_raise * study_benefit
 new_study_benefit = study_benefit + calculate_index_raise
 print("If the index raise is 1.17 percent, the study benefit,\nafter a raise, would be", new_study_benefit, "euros")
+# Now calculating another index raise if applicable
 second_index_raise = index_raise * new_study_benefit
 updated_study_benefit = second_index_raise + new_study_benefit
 print(f"and if there was another index raise, the study\nbenefits would be as much as, {updated_study_benefit:.2f} euros")
