@@ -105,7 +105,7 @@ WEAPONS = {
     # Weapon          Damage
     #--------------   ------
     "elephant gun":     15,
-    "Basic gun":               5,
+    "Simple basic gun":               5,
     "light saber":      50,
     "sword":             7,
 }
