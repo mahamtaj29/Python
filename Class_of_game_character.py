@@ -68,7 +68,7 @@ def main():
     character2 = Character("Deadpool")
     for test_item in ["sword", "sausage", "plate armor", "sausage", "sausage"]:
         character1.give_item(test_item)
-    for test_item in ["gun", "sword", "gun", "sword", "hero outfit"]:
+    for test_item in ["gun", "sword", "gun", "sword", "Hero outfit"]:
         character2.give_item(test_item)
     character1.remove_item("sausage")
     character2.remove_item("hero outfit")
