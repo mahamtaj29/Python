@@ -55,16 +55,13 @@ def user_input():
     # return the user input in form of a list
     return list_of_fractions
 def show_simplified(list_of_fractions):
-    """
-    This function will show the list of fraction object in simplified form
-    :param list_of_fractions:list, list of fraction object. """
+    """ This function will show the list of fraction object in simplified form. :param list_of_fractions:list, list of fraction object. """
     print("The given fractions in their simplified form:")
     for frac in list_of_fractions:
         input_value = frac.return_string()
         frac.simplify()
         simplified = frac.return_string()
         print(f"{input_value} = {simplified}")
-
 def main():
     #Function 1: To take input from user and validate the input
     list_of_fractions = user_input()
